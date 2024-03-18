@@ -13,10 +13,14 @@ main .hero-container {
 }
 
 .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
+  margin-left: 10%;
   margin-right: auto;
   color: white;
+  background-color: #0f0f0f;
+  display: inline-block;
+  padding: 0 25px 0 25px;
+  transform: skewX(-10deg);
+
 }
 
 .hero picture {
