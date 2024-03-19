@@ -145,6 +145,7 @@ header .nav-brand {
   font-size: var(--heading-font-size-s);
   font-weight: 700;
   line-height: 1;
+  color: var(--brand-primary);
 }
 
 header nav .nav-brand img {
@@ -201,6 +202,7 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
     padding-right: 16px;
     cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
   header nav .nav-sections .nav-drop::after {

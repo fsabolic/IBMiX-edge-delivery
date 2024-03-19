@@ -12,12 +12,15 @@
 
 :root {
   /* colors */
-  --link-color: #ff6600;
-  --link-hover-color: #FDC131;
+  --brand-primary:#ff6600;
+  --brand-secondary:#FDC131;
+  --brand-highlight:black;
+  --link-color: var(--brand-primary);
+  --link-hover-color: var(--brand-secondary);
   --background-color: white;
   --light-color: #eee;
   --dark-color: #ccc;
-  --text-color: black;
+  --text-color: var(--brand-highlight);
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -168,6 +171,10 @@ a.button.secondary, button.secondary {
   color: var(--text-color)
 }
 
+a.button.secondary:hover{
+  opacity: 70%;
+  cursor: pointer;
+}
 main img {
   max-width: 100%;
   width: auto;
